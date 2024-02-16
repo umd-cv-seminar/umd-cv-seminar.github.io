@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    
+    <h1><img src="static/umd_seal_cropped.png" class="logo">UMD Computer Vision Seminar</h1>
+</header>
+<p>The UMD Computer Vision Seminar hosts talks from internal and external speakers on a variety of topics across computer vision, machine learning, graphics, and computational imaging.  </p>
+<h2>
+    Spring 2024
+</h2>
+<p><strong>Time: </strong>Mondays 12PM-1PM</p>
+<p><strong>Organizers:</strong> <a href="https://hadizayer.github.io/">Hadi Alzayer</a> and <a href="https://kevinwzhang.com">Kevin Zhang</a></p>
+<p><strong>Location: </strong>IRB 4105 (sometimes 3137)</p>
+<h2>
+    Schedule
+</h2>
+<table>
+    <tbody>
+        <tr>
+            <td class="left"><img src="static/kevin_zhang.png" class="profile">
+                <br>
+                <a href="https://kevinwzhang.com">Kevin Zhang</a>
+                <p class="affliation">UMD</p>
+            </td>
+            <td><h3>2024-02-05, first half</h3>
+                <h4>AONeuS: A Neural Rendering Framework for Acoustic-Optical Sensor Fusion</h4>
+                <p><strong>Abstract: </strong>Underwater perception and 3D surface reconstruction are challenging problems with broad applications in construction, security, marine archaeology, and environmental monitoring. Treacherous operating conditions, fragile surroundings, and limited navigation control often dictate that submersibles restrict their range of motion and, thus, the baseline over which they can capture measurements. In the context of 3D scene reconstruction, it is well-known that smaller baselines make reconstruction more challenging. Our work develops a physics-based multimodal acoustic-optical neural surface reconstruction framework (AONeuS) capable of effectively integrating high-resolution RGB measurements with low-resolution depth-resolved imaging sonar measurements. By fusing these complementary modalities, our framework can reconstruct accurate high-resolution 3D surfaces from measurements captured over heavily-restricted baselines. Through extensive simulations and in-lab experiments, we demonstrate that AONeuS dramatically outperforms recent RGB-only and sonar-only inverse-differentiable-rendering-based surface reconstruction methods. </p>
+            </td>
+          </tr>
+          <tr>
+        <tr>
+            <td class="left"><img src="static/sachin_shah.jpeg" class="profile">
+                <br>
+                <a href="https://sachinshah.com/">Sachin Shah</a>
+                <p class="affliation">UMD</p>
+            </td>
+            <td><h3>2024-02-05, second half</h3>
+                <h4>CodedEvents: Optimal Point-Spread-Function Engineering for 3D-Tracking with Event Cameras</h4>
+                <p><strong>Abstract: </strong>Point-spread-function (PSF) engineering is a well-established computational imaging technique used to embed extra information into images captured by RGB CMOS sensors through the customization of optical systems. However, designed optics have been largely unexplored for neuromorphic event camera sensors. This paper pushes the boundaries of computational imaging by deriving fundamental limits of event-based imaging for 3D point light source tracking. Through simulation, we illustrate that these information-theoretical bounds can design optimal lenses for event cameras. Additionally, we introduce a novel implicit neural representation system for the optimization of binary apertures, addressing the challenges associated with gradient descent in the context of binary parameters. Finally, we present a physical prototype of our learned coded aperture in conjunction with an event camera and showcase its performance for 3D tracking.</p>
+            </td>
+          </tr>
+          <tr>
+      <tr>
+        <td class="left"><img src="static/aswin.jpg" class="profile">
+            <br>
+            <a href="http://imagesci.ece.cmu.edu/">Aswin Sankaranarayanan</a>
+            <p class="affliation">CMU</p>
+        </td>
+        <td><h3>2024-02-12</h3>
+            <h4>Computational Optics for 3D Display Design</h4>
+            <p><strong>Abstract: </strong>Digitization of reality is at the cusp of widespread adoption and 3D displays are at the forefront of enabling such extended reality systems. For an immersive experience,  a 3D display must faithfully reproduce the visual cues pertaining to vergence, accommodation, occlusion, and motion parallax. I will talk about recent work on computational display designs that enable such features in near-eye displays.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="left"><img src="static/hadi_alzayer.png" class="profile">
+            <br>
+            <a href="https://hadizayer.github.io/">Hadi Alzayer</a>
+            <p class="affliation">UMD</p>
+        </td>
+        <td><h3>2024-02-19, first half</h3>
+            <h4>Magic FixUp</h4>
+            <p><strong>Abstract: </strong>Editing a photograph by rearranging its components parts to produce a realistic output is a meticulous and time-consuming process, that is prone to illusion-breaking mistakes. However, making rough edits to quickly convey the intended composition and concept is easy for a human. We propose a generative method that takes a roughly edited image as input and synthesizes a photorealistic image that follows the prescribed layout, transferring fine details from the original unedited image to preserve the identity of its parts while adapting its content to the lighting and context defined by the new layout. We show that using simple segmentations and coarse 2D manipulations, we can sythesize a photorealistic edit that's faithful to the user's input, while addressing second-order effects like harmonizing the lighting and physical interactions between edited objects.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="left"><img src="static/yixuan_ren.jpg" class="profile">
+            <br>
+            <a href="https://www.linkedin.com/in/renyixuan/">Yixuan Ren</a>
+            <p class="affliation">UMD</p>
+        </td>
+        <td><h3>2024-02-19, second half</h3>
+            <h4>Video Motion Customization</h4>
+            <p><strong>Abstract: </strong>Image customization has been extensively studied in text-to-image (T2I) diffusion models, resulting in impressive outcomes and applications. With the emergence of text-to-video (T2V) diffusion models, its temporal counterpart, motion customization, has not yet been fully investigated. We propose Customize-A-Video, a one-shot motion customization method which models the motion from a single reference video and adapting it to new subjects and scenes with spatial and temporal varieties. It utilizes low-rank adaptation (LoRA) on temporal attention layers to tailor the pre-trained T2V diffusion model for specific modeling of motion from the reference video. We also introduce a novel concept of appearance absorbers to disentangle the spatial and temporal information from the single reference video during training. Our proposed method can be easily extended to various downstream tasks, including custom text/image-to-video generation and editing, as well as multimodal integrated customization, in a plug-and-play fashion.</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="left">
+            <img src="static/roni_sengupta.jpg" class="profile">
+            <a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a>
+            <p>UNC Chapel Hill</p>
+        </td>
+        <td><h3>2024-02-26</h3>
+            <h4>Building Personalized and Efficient 3D Models</h4>
+        <p>
+            <strong>Abstract: </strong>Creating 3D models from casual camera captures enables various creative and cognitive applications for AR/VR, Computational Photography, Robotics, and Medical Imaging. Nonetheless, the underlying 'engines' propelling these 3D models comprising the hardware systems for capture and machine learning models are often expensive to build, thereby constraining widespread accessibility. In this talk, I will discuss my group's effort to develop efficient and accessible 3D models. The first part of the talk will focus on developing lightweight and personalized 3D generative models for facial reconstruction and relighting. The last part of the talk will focus on developing efficient 3D reconstruction algorithms that combine both camera and lighting variations for objects, scenes, and endoscopy images.
+        </p></td>
+      </tr>
+    </tbody>
+  </table>
+<!-- <table>
+     <caption>Sample Table</caption>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Topic</th>
+        <th>Speaker</th>
+        <th>Affiliation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2024-02-12</td>
+        <td>Computational Optics for 3D Display Design</td>
+        <td><a href="http://imagesci.ece.cmu.edu/"">Aswin Sankaranarayanan</a></td>
+        <td>CMU</td>
+      </tr>
+      <tr>
+        <td>2024-02-26</td>
+        <td>Building Personalized and Efficient 3D Models</td>
+        <td><a href="https://www.cs.unc.edu/~ronisen/">Roni Sengupta</a></td>
+        <td>UNC Chapel Hill</td>
+      </tr>
+    </tbody>
+  </table> -->
+</body>
