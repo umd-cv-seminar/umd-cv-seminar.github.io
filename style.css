@@ -51,19 +51,51 @@ background-color: #f2f2f2; /* Set a light gray background color for header cells
     /* text-align: center; Center the text inside the container 
 } */
 
-h3, h4 {
+h3 {
     margin: 0;
 }
 
 .left {
-    width: 200px;
+    width: 140px;
     text-align: center;
 }
 
 .profile {
-    width: 190px;
+    width: 130px;
 }
 
 .affiliation {
     text-align: center;
+}
+
+/* https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+} 
+
+.title {
+    margin-bottom: 20px;
 }
