@@ -9,8 +9,10 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
+      this.innerHTML = "Click to expand abstract";
     } else {
       content.style.display = "block";
+      this.innerHTML = "Click to collapse abstract";
     }
   });
 } 
