@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <title>
+   UMD Computer Vision Seminar
+  </title>
+ </head>
+ <body>
+  <header>
+   <h1>
+    <img class="logo" src="../static/umd_seal_cropped.png"/>
+    UMD Computer Vision Seminar
+   </h1>
+  </header>
+  <p>
+   The UMD Computer Vision Seminar hosts talks from internal and external speakers on a variety of topics across computer vision, machine learning, graphics, and computational imaging.
+  </p>
+  <h2>
+   Spring 2024
+  </h2>
+  <p>
+   <strong>
+    Time:
+   </strong>
+   Mondays 12PM-1PM
+  </p>
+  <p>
+   <strong>
+    Organizers:
+   </strong>
+   <a href="https://hadizayer.github.io/">
+    Hadi Alzayer
+   </a>
+   and
+   <a href="https://kevinwzhang.com">
+    Kevin Zhang
+   </a>
+  </p>
+  <p>
+   <strong>
+    Location:
+   </strong>
+   IRB 4105 (sometimes 3137)
+  </p>
+  <h2>
+   Schedule
+  </h2>
+  <!-- <table>
+    <tbody> -->
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-05-06
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/haoming_cai.jpeg"/>
+      <a href="https://www.haomingcai.com/">
+       Haoming Cai
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       ConVRT: Consistent Video Restoration Through Turbulence with Test-time Optimization of Neural Video Representations
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Atmospheric turbulence presents a significant challenge in long-range imaging. Current restoration algorithms often struggle with temporal inconsistency, as well as limited generalization ability across varying turbulence levels and scene content different than the training data. To tackle these issues, we introduce a self-supervised method, Consistent Video Restoration through Turbulence (ConVRT) a test-time optimization method featuring a neural video representation designed to enhance temporal consistency in restoration. A key innovation of ConVRT is the integration of a pretrained vision-language model (CLIP) for semantic-oriented supervision, which steers the restoration towards sharp, photorealistic images in the CLIP latent space. We further develop a principled selection strategy of text prompts, based on their statistical correlation with a perceptual metric. ConVRT's test-time optimization allows it to adapt to a wide range of real-world turbulence conditions, effectively leveraging the insights gained from pre-trained models on simulated data. ConVRT offers a comprehensive and effective solution for mitigating real-world turbulence in dynamic videos.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/yiran_xu.jpeg"/>
+      <a href="https://twizwei.github.io/">
+       Yiran Xu
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       VideoGigaGAN: Towards Detail-rich Video Super-Resolution
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Video super-resolution (VSR) approaches have shown impressive temporal consistency in upsampled videos. However, these approaches tend to generate blurrier results than their image counterparts as they are limited in their generative capability. This raises a fundamental question: can we extend the success of a generative image upsampler to the VSR task while preserving the temporal consistency? We introduce VideoGigaGAN, a new generative VSR model that can produce videos with high-frequency details and temporal consistency. VideoGigaGAN builds upon a large-scale image upsampler -- GigaGAN. Simply inflating GigaGAN to a video model by adding temporal modules produces severe temporal flickering. We identify several key issues and propose techniques that significantly improve the temporal consistency of upsampled videos. Our experiments show that, unlike previous VSR methods, VideoGigaGAN generates temporally consistent videos with more fine-grained appearance details. We validate the effectiveness of VideoGigaGAN by comparing it with state-of-the-art VSR models on public datasets and showcasing video results with 8x super-resolution.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-04-29
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/niall_williams.png"/>
+      <a href="https://niall.phd/">
+       Niall Williams
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Perception of Motion Artifacts in Near-Eye Varifocal Displays
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        We provide the first perceptual quantification of user's sensitivity to radial optic flow artifacts and demonstrate a promising approach for masking this optic flow artifact via blink suppression. Near-eye HMDs allow users to feel immersed in virtual environments by providing visual cues, like motion parallax and stereoscopy, that mimic how we view the physical world. However, these systems exhibit a variety of perceptual artifacts that can limit their usability and the user's sense of presence in VR. One well-known artifact is the vergence-accommodation conflict (VAC). Varifocal displays can mitigate VAC, but bring with them other artifacts such as a change in virtual image size (radial optic flow) when the focal plane changes. We conducted a set of psychophysical studies to measure users' ability to perceive this radial flow artifact before, during, and after self-initiated blinks. Our results showed that visual sensitivity was reduced by a factor of 10 at the start and for ~70 ms after a blink was detected. Pre- and post-blink sensitivity was, on average, ~0.15% image size change during normal viewing and increased to ~1.5-2.0% during blinks. Our results imply that a rapid (under 70 ms) radial optic flow distortion can go unnoticed during a blink. Furthermore, our results provide empirical data that can be used to inform engineering requirements for both hardware design and software-based graphical correction algorithms for future varifocal near-eye displays.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/gowthami_somepalli.jpeg"/>
+      <a href="https://somepago.github.io/">
+       Gowthami Somepalli
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       Measuring Style Similarity in Diffusion Models
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Generative models are now widely used by graphic designers and artists. Prior works have shown that these models remember and often replicate content from their training data during generation. Hence as their proliferation increases, it has become important to perform a database search to determine whether the properties of the image are attributable to specific training data, every time before a generated image is used for professional purposes. Existing tools for this purpose focus on retrieving images of similar semantic content. Meanwhile, many artists are concerned with style replication in text-to-image models. We present a framework for understanding and extracting style descriptors from images. Our framework comprises a new dataset curated using the insight that style is a subjective property of an image that captures complex yet meaningful interactions of factors including but not limited to colors, textures, shapes, etc. We also propose a method to extract style descriptors that can be used to attribute style of a generated image to the images used in the training dataset of a text-to-image model. We showcase promising results in various style retrieval tasks. We also quantitatively and qualitatively analyze style attribution and matching in the Stable Diffusion model.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-04-22
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/xijun_wang.png"/>
+      <a href="https://xijun-cs.github.io/">
+       Xijun Wang
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       ICAR: Image-based Complementary Auto Reasoning
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Scene-aware Complementary Item Retrieval (CIR) is a challenging task which requires to generate a set of compatible items across domains. Due to the subjectivity, it is difficult to set up a rigorous standard for both data collection and learning objectives. To address this challenging task, we propose a visual compatibility concept, composed of similarity (resembling in color, geometry, texture, and etc.) and complementarity (different items like table vs chair completing a group). Based on this notion, we propose a compatibility learning framework, a category-aware Flexible Bidirectional Transformer (FBT), for visual "scene-based set compatibility reasoning" with the cross-domain visual similarity input and auto-regressive complementary item generation. We introduce a "Flexible Bidirectional Transformer (FBT)," consisting of an encoder with flexible masking, a category prediction arm, and an auto-regressive visual embedding prediction arm. And the inputs for FBT are cross-domain visual similarity invariant embeddings, making this framework quite generalizable. Furthermore, our proposed FBT model learns the inter-object compatibility from a large set of scene images in a self-supervised way. Compared with the SOTA methods, this approach achieves up to 5.3% and 9.6% in FITB score and 22.3% and 31.8% SFID improvement on fashion and furniture, respectively.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/namitha_padmanabhan.jpg"/>
+      <a href="https://www.cs.umd.edu/people/namithap">
+       Namitha Padmanabhan
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       Explaining the Implicit Neural Canvas (XINC): Connecting Pixels to Neurons by Tracing their Contributions
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        The many variations of Implicit Neural Representations (INRs), where a neural network is trained as a continuous representation of a signal, have tremendous practical utility for downstream tasks including novel view synthesis, video compression, and image super-resolution. Unfortunately, the inner workings of these networks are seriously understudied. Our work, eXplaining the Implicit Neural Canvas (XINC), is a unified framework for explaining properties of INRs by examining the strength of each neuron's contribution to each output pixel. We call the aggregate of these contribution maps the Implicit Neural Canvas and we use this concept to demonstrate that the INRs we study learn to "see" the frames they represent in surprising ways. For example, INRs tend to have highly distributed representations. While lacking high-level object semantics, they have a significant bias for color and edges, and are almost entirely space-agnostic. We arrive at our conclusions by examining how objects are represented across time in video INRs, using clustering to visualize similar neurons across layers and architectures, and show that this is dominated by motion. These insights demonstrate the general usefulness of our analysis framework.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-04-15
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/mingyang_xie.jpg"/>
+      <a href="https://mingyangx.github.io/">
+       Mingyang Xie
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Flash-Splat: 3D Reflection Removal with Flash Cues and Gaussian Splats
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        We introduce a simple yet effective approach for separating transmitted and reflected light. Our key insight is that the powerful novel view synthesis capabilities provided by modern inverse rendering methods (e.g.,~Gaussian splatting) allow one to perform flash/no-flash reflection separation using unpaired measurements---this relaxation dramatically simplifies image acquisition over conventional paired flash/no-flash reflection separation methods. Through extensive real-world experiments, we demonstrate our method, Flash-Splat, accurately reconstructs both transmitted and reflected scenes in 3D. Our method outperforms existing 3D reflection separation methods, which do not leverage illumination control, by a large margin.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/tianrui_guan.JPG"/>
+      <a href="https://tianruiguan.phd/">
+       Tianrui Guan
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        We introduce “HALLUSIONBENCH1 ,” a comprehensive benchmark designed for the evaluation of image-context reasoning. This benchmark presents significant challenges to advanced large visual-language models (LVLMs), such as GPT-4V(ision), Gemini Pro Vision, Claude 3, and LLaVA1.5, by emphasizing nuanced understanding and interpretation of visual data. The benchmark comprises 346 images paired with 1129 questions, all meticulously crafted by human experts. We introduce a novel structure for these visual questions designed to establish control groups. This structure enables us to conduct a quantitative analysis of the models’ response tendencies, logical consistency, and various failure modes. In our evaluation on HALLUSIONBENCH, we benchmarked 15 different models, highlighting a 31.42% question-pair accuracy achieved by the state-ofthe-art GPT-4V. Notably, all other evaluated models achieve accuracy below 16%. Moreover, our analysis not only highlights the observed failure modes, including language hallucination and visual illusion but also deepens an understanding of these pitfalls. Our comprehensive case studies within HALLUSIONBENCH shed light on the challenges of hallucination and illusion in LVLMs. Based on these insights, we suggest potential pathways for their future improvement. The benchmark and codebase can be accessed here.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-04-08
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/yao_chih.png"/>
+      <a href="https://yaochih.github.io/">
+       Yao-Chih Lee
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Fast View Synthesis of Casual Videos
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Novel view synthesis from an in-the-wild video is difficult due to challenges like scene dynamics and lack of parallax. While existing methods have shown promising results with implicit neural radiance fields, they are slow to train and render. This paper revisits explicit video representations to synthesize high-quality novel views from a monocular video efficiently. We treat static and dynamic video content separately. Specifically, we build a global static scene model using an extended plane-based scene representation to synthesize temporally coherent novel video. Our plane-based scene representation is augmented with spherical harmonics and displacement maps to capture view-dependent effects and model non-planar complex surface geometry. We opt to represent the dynamic content as per-frame point clouds for efficiency. While such representations are inconsistency-prone, minor temporal inconsistencies are perceptually masked due to motion. We develop a method to quickly estimate such a hybrid video representation and render novel views in real time. Our experiments show that our method can render high-quality novel views from an in-the-wild video with comparable quality to state-of-the-art methods while being 100x faster in training and enabling real-time rendering.
+            Arxiv.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-03-11
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/matt_walmer.jpg"/>
+      <a href="http://www.cs.umd.edu/~mwalmer/">
+       Matthew Walmer
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Teaching Matters: Investigating the Role of Supervision in Vision Transformers
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Vision Transformers (ViTs) have gained significant popularity in recent years and have proliferated into many applications. However, it is not well explored how varied their behavior is under different learning paradigms. We compare ViTs trained through different methods of supervision, and show that they learn a diverse range of behaviors in terms of their attention, representations, and downstream performance. We also discover ViT behaviors that are consistent across supervision, including the emergence of Offset Local Attention Heads. These are self-attention heads that attend to a token adjacent to the current token with a fixed directional offset, a phenomenon that to the best of our knowledge has not been highlighted in any prior work. Our analysis shows that ViTs are highly flexible and learn to process local and global information in different orders depending on their training method. We find that contrastive self-supervised methods learn features that are competitive with explicitly supervised features, and they can even be superior for part-level tasks. We also find that the representations of reconstruction-based models show non-trivial similarity to contrastive self-supervised models. Finally, we show how the "best" layer for a given task varies by both supervision method and task, further demonstrating the differing order of information processing in ViTs.
+            Arxiv.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/saksham_suri.png"/>
+      <a href="http://www.cs.umd.edu/~sakshams/">
+       Saksham Suri
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       Transforming ViT Features for Dense Downstream Tasks
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        We present a simple self-supervised method to enhance the performance of ViT features for dense downstream tasks. Our Lightweight Feature Transform (LiFT) is a straightforward and compact postprocessing network that can be applied to enhance the features of any pre-trained ViT backbone. LiFT is fast and easy to train with a self-supervised objective, and it boosts the density of ViT features for minimal extra inference cost. Furthermore, we demonstrate that LiFT can be applied with approaches that use additional task-specific downstream modules, as we integrate LiFT with ViTDet for COCO detection and segmentation. Despite the simplicity of LiFT, we find that it is not simply learning a more complex version of bilinear interpolation. Instead, our LiFT training protocol leads to several desirable emergent properties that benefit ViT features in dense downstream tasks. This includes greater scale invariance for features, and better object boundary maps. By simply training LiFT for a few epochs, we show improved performance on keypoint correspondence, detection, segmentation, and object discovery tasks. Overall, LiFT provides an easy way to unlock the benefits of denser feature arrays for a fraction of the computational cost. 
+            Arxiv.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-02-26
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/roni_sengupta.jpg"/>
+      <a href="https://www.cs.unc.edu/~ronisen/">
+       Roni Sengupta
+      </a>
+      <p>
+       UNC Chapel Hill
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Building Personalized and Efficient 3D Models
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Creating 3D models from casual camera captures enables various creative and cognitive applications for AR/VR, Computational Photography, Robotics, and Medical Imaging. Nonetheless, the underlying 'engines' propelling these 3D models comprising the hardware systems for capture and machine learning models are often expensive to build, thereby constraining widespread accessibility. In this talk, I will discuss my group's effort to develop efficient and accessible 3D models. The first part of the talk will focus on developing lightweight and personalized 3D generative models for facial reconstruction and relighting. The last part of the talk will focus on developing efficient 3D reconstruction algorithms that combine both camera and lighting variations for objects, scenes, and endoscopy images.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-02-19
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/hadi_alzayer.png"/>
+      <a href="https://hadizayer.github.io/">
+       Hadi Alzayer
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Fixing coarse edits with diffusion models
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        We propose a generative model that, given a coarsely edited image, synthesizes a photorealistic output that follows the prescribed layout. Our method transfers fine details from the original image and preserve the identity of its parts. Yet, it adapts it to the lighting and context defined by the new layout. Our key insight is that videos are a powerful source of supervision for this task: objects and camera motions provide many observations of how the world changes with viewpoint, lighting, and physical interactions. We construct an image dataset in which each sample is a pair of source and target frames extracted from the same video at randomly chosen time intervals. We warp the source frame toward the target using two motion models that mimic the expected test-time user edits. We supervise our model to translate the warped image into the ground truth, starting from a pretrained diffusion model. Our model design explicitly enables fine detail transfer from the source frame to the generated image, while closely following the user-specified layout. We show that by using simple segmentations and coarse 2D manipulations, we can synthesize a photorealistic edit faithful to the user's input while addressing second-order effects like harmonizing the lighting and physical interactions between edited objects.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/yixuan_ren.jpg"/>
+      <a href="https://www.linkedin.com/in/renyixuan/">
+       Yixuan Ren
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       Video Motion Customization
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Image customization has been extensively studied in text-to-image (T2I) diffusion models, leading to impressive outcomes and applications. With the emergence of text-to-video (T2V) diffusion models, its temporal counterpart, motion customization, has not yet been well investigated. To address the challenge of one-shot motion customization, we propose Customize-A-Video that models the motion from a single reference video and adapting it to new subjects and scenes with both spatial and temporal varieties. It leverages low-rank adaptation (LoRA) on temporal attention layers to tailor the pre-trained T2V diffusion model for specific motion modeling from the reference videos. To disentangle the spatial and temporal information during the training pipeline, we introduce a novel concept of appearance absorbers that detach the original appearance from the single reference video prior to motion learning. Our proposed method can be easily extended to various downstream tasks, including custom video generation and editing, video appearance customization, and multiple motion combination, in a plug-and-play fashion.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-02-12
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/aswin.jpg"/>
+      <a href="http://imagesci.ece.cmu.edu/">
+       Aswin Sankaranarayanan
+      </a>
+      <p>
+       CMU
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Computational Optics for 3D Display Design
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Digitization of reality is at the cusp of widespread adoption and 3D displays are at the forefront of enabling such extended reality systems. For an immersive experience,  a 3D display must faithfully reproduce the visual cues pertaining to vergence, accommodation, occlusion, and motion parallax. I will talk about recent work on computational display designs that enable such features in near-eye displays.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <td class="date" colspan="2">
+      <h3>
+       2024-02-05
+      </h3>
+     </td>
+    </tr>
+    <tr>
+     <td class="left">
+      <img class="profile" src="../static/kevin_zhang.png"/>
+      <a href="https://kevinwzhang.com">
+       Kevin Zhang
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="">
+      <h3 class="title">
+       Fusing RGB and Imaging Sonar Data using Neural Surfaces
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Underwater perception and 3D surface reconstruction are challenging problems with broad applications in construction, security, marine archaeology, and environmental monitoring. Treacherous operating conditions, fragile surroundings, and limited navigation control often dictate that submersibles restrict their range of motion and, thus, the baseline over which they can capture measurements. In the context of 3D scene reconstruction, it is well-known that smaller baselines make reconstruction more challenging. Our work develops a physics-based multimodal acoustic-optical neural surface reconstruction framework capable of effectively integrating high-resolution RGB measurements with low-resolution depth-resolved imaging sonar measurements. By fusing these complementary modalities, our framework can reconstruct accurate high-resolution 3D surfaces from measurements captured over heavily-restricted baselines. Through extensive simulations and in-lab experiments, we demonstrate that our method dramatically outperforms recent RGB-only and sonar-only inverse-differentiable-rendering-based surface reconstruction methods.
+       </p>
+      </div>
+     </td>
+    </tr>
+    <tr>
+     <td class="left split">
+      <img class="profile" src="../static/sachin_shah.jpeg"/>
+      <a href="https://sachinshah.com/">
+       Sachin Shah
+      </a>
+      <p>
+       UMD
+      </p>
+     </td>
+     <td class="split">
+      <h3 class="title">
+       CodedEvents: Optimal Point-Spread-Function Engineering for 3D-Tracking with Event Cameras
+      </h3>
+      <button class="collapsible" type="button">
+       Click to expand abstract
+      </button>
+      <div class="content">
+       <p>
+        <strong>
+         Abstract:
+        </strong>
+        Point-spread-function (PSF) engineering is a well-established computational imaging technique used to embed extra information into images captured by RGB CMOS sensors through the customization of optical systems. However, designed optics have been largely unexplored for neuromorphic event camera sensors. This paper pushes the boundaries of computational imaging by deriving fundamental limits of event-based imaging for 3D point light source tracking. Through simulation, we illustrate that these information-theoretical bounds can design optimal lenses for event cameras. Additionally, we introduce a novel implicit neural representation system for the optimization of binary apertures, addressing the challenges associated with gradient descent in the context of binary parameters. Finally, we present a physical prototype of our learned coded aperture in conjunction with an event camera and showcase its performance for 3D tracking.
+       </p>
+      </div>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <!-- </tbody>
+</table> -->
+  <script src="../scripts.js">
+  </script>
+ </body>
+</html>

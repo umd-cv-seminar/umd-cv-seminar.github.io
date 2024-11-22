@@ -1,0 +1,52 @@
+{
+    "2023-02-10": [
+        {
+            "image": "../static/jiajun_wu.jpg",
+            "link": "https://jiajunwu.com/",
+            "name": "Jiajun Wu",
+            "affiliation": "Stanford",
+            "title": "Understanding the Visual World Through Naturally Supervised Code",
+            "abstract": "The visual world has its inherent structure: scenes are made of multiple identical objects; different objects may have the same color or material, with a regular layout; each object can be symmetric and have repetitive parts. How can we infer, represent, and use such structure from raw data, without hampering the expressiveness of neural networks? In this talk, I will demonstrate that such structure, or code, can be learned from natural supervision. Here, natural supervision can be from pixels, where neuro-symbolic methods automatically discover repetitive parts and objects for scene synthesis. It can also be from objects, where humans during fabrication introduce priors that can be leveraged by machines to infer regular intrinsics such as texture and material. When solving these problems, structured representations and neural nets play complementary roles: it is more data-efficient to learn with structured representations, and they generalize better to new scenarios with robustly captured high-level information; neural nets effectively extract complex, low-level features from cluttered and noisy visual data."
+        }
+    ],
+    "2023-02-27": [
+        {
+            "image": "../static/anand_bhattad.jpg",
+            "link": "https://anandbhattad.github.io/",
+            "name": "Anand Bhattad",
+            "affiliation": "UIUC",
+            "title": "Learning about Light without Labeled Data",
+            "abstract": "In this talk, I will show how to improve StyleGAN's image generation capabilities by incorporating simple illumination properties into the model. Our method, StyLitGAN, generates images with realistic lighting effects like shadows and reflections without any labeled, paired, or CGI data. I'll also demonstrate a near-perfect GAN inversion technique, Make It So, that outperforms previous SOTA GAN inversion methods by huge margins, able to invert and relight real scenes, even never seen out-of-domain images. Lastly, I'll show how we can have multiple scene properties predicted directly from a pretrained StyleGAN without updating or learning any new weight parameters. I will conclude by discussing their exciting implications for Generative AI."
+        }
+    ],
+    "2023-04-10": [
+        {
+            "image": "../static/angjoo_kanazawa.jpg",
+            "link": "https://people.eecs.berkeley.edu/~kanazawa/",
+            "name": "Angjoo Kanazawa",
+            "affiliation": "UC Berkeley",
+            "title": "From Videos to 4D Worlds and Beyond",
+            "abstract": "The world underlying images and videos is 3-dimensional and dynamic, with people interacting with each other, objects, and the underlying scene. Even in videos of a static scene, there is always the camera moving about in the 4D world. However, disentangling this 4D world from a video is a challenging inverse problem due to fundamental ambiguities of depth and scale. Yet, accurately recovering this information is essential for building systems that can reason about and interact with the underlying scene, and has immediate applications in visual effects and creation of immersive digital worlds. \n                    In this talk, I will discuss recent updates in 4D human perception, which includes disentangling the camera and the human motion from challenging in-the-wild videos with multiple people. Our approach takes advantage of background pixels as cues for camera motion, which when combined with motion priors and inferred ground planes can resolve scene scale and depth ambiguities up to an \"anthropometric\" scale. I will also talk about nerf.studio, a modular open-source framework for easily creating photorealistic 3D scenes and accelerating NeRF development. I will introduce two new works that highlight how language can be incorporated for editing and interacting with the recovered 3D scenes. These works leverage large-scale vision and language models, demonstrating the potential for multi-modal exploration and manipulation of 3D scenes."
+        }
+    ],
+    "2023-04-11": [
+        {
+            "image": "../static/ben_poole.png",
+            "link": "https://cs.stanford.edu/~poole/",
+            "name": "Ben Poole",
+            "affiliation": "Google Deepmind",
+            "title": "2D priors for 3D generation",
+            "abstract": "Large scale datasets of images with text descriptions have enabled powerful models that represent and generate pixels. But progress in 3D generation has been slow due to the lack of 3D data and efficient architectures. In this talk, I'll present DreamFields and DreamFusion: two approaches that enable 3D generation from 2D priors using no 3D data. By turning 2D priors into loss functions, we can optimize 3D models (NeRFs) from scratch via gradient descent. These methods enable high-quality generation of 3D objects from diverse text prompts. Finally, I'll discuss a fundamental problem with our approach and how progress on pixel-space priors like Imagen Video and 3DiM may unlock new 3D capabilities."
+        }
+    ],
+    "2023-05-25": [
+        {
+            "image": "../static/srinath_sridhar.jpg",
+            "link": "https://cs.brown.edu/people/ssrinath/",
+            "name": "Srinath Sridhar",
+            "affiliation": "Brown University",
+            "title": "Foundation Models and 3D Computer Vision",
+            "abstract": "In this partly speculative talk, I will share my thoughts on Foundation Models (aka Large Models) and their implications for object-centric 3D computer vision. To do this, I will first discuss some of our recent work on learning to generate, edit, arrange, and capture 3D objects and humans. This will include our work on (1) recursively generating and modifying 3D shapes using natural language descriptions; (2) arranging 3D shapes and re-arranging collections of shapes; and (3) capturing real-world objects and human hands. Next, using our and others' work as examples, I will speculate on how Foundation Models could provide new perspectives for addressing the same problems. I will conclude by identifying open opportunities and challenges."
+        }
+    ]
+}

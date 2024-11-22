@@ -1,0 +1,158 @@
+{
+    "2024-05-06": [
+        {
+            "image": "static/haoming_cai.jpeg",
+            "link": "https://www.haomingcai.com/",
+            "name": "Haoming Cai",
+            "affiliation": "UMD",
+            "title": "ConVRT: Consistent Video Restoration Through Turbulence with Test-time Optimization of Neural Video Representations",
+            "abstract": "Atmospheric turbulence presents a significant challenge in long-range imaging. Current restoration algorithms often struggle with temporal inconsistency, as well as limited generalization ability across varying turbulence levels and scene content different than the training data. To tackle these issues, we introduce a self-supervised method, Consistent Video Restoration through Turbulence (ConVRT) a test-time optimization method featuring a neural video representation designed to enhance temporal consistency in restoration. A key innovation of ConVRT is the integration of a pretrained vision-language model (CLIP) for semantic-oriented supervision, which steers the restoration towards sharp, photorealistic images in the CLIP latent space. We further develop a principled selection strategy of text prompts, based on their statistical correlation with a perceptual metric. ConVRT's test-time optimization allows it to adapt to a wide range of real-world turbulence conditions, effectively leveraging the insights gained from pre-trained models on simulated data. ConVRT offers a comprehensive and effective solution for mitigating real-world turbulence in dynamic videos."
+        },
+        {
+            "image": "static/yiran_xu.jpeg",
+            "link": "https://twizwei.github.io/",
+            "name": "Yiran Xu",
+            "affiliation": "UMD",
+            "title": "VideoGigaGAN: Towards Detail-rich Video Super-Resolution",
+            "abstract": "Video super-resolution (VSR) approaches have shown impressive temporal consistency in upsampled videos. However, these approaches tend to generate blurrier results than their image counterparts as they are limited in their generative capability. This raises a fundamental question: can we extend the success of a generative image upsampler to the VSR task while preserving the temporal consistency? We introduce VideoGigaGAN, a new generative VSR model that can produce videos with high-frequency details and temporal consistency. VideoGigaGAN builds upon a large-scale image upsampler -- GigaGAN. Simply inflating GigaGAN to a video model by adding temporal modules produces severe temporal flickering. We identify several key issues and propose techniques that significantly improve the temporal consistency of upsampled videos. Our experiments show that, unlike previous VSR methods, VideoGigaGAN generates temporally consistent videos with more fine-grained appearance details. We validate the effectiveness of VideoGigaGAN by comparing it with state-of-the-art VSR models on public datasets and showcasing video results with 8x super-resolution."
+        }
+    ],
+    "2024-04-29": [
+        {
+            "image": "static/niall_williams.png",
+            "link": "https://niall.phd/",
+            "name": "Niall Williams",
+            "affiliation": "UMD",
+            "title": "Perception of Motion Artifacts in Near-Eye Varifocal Displays",
+            "abstract": "We provide the first perceptual quantification of user's sensitivity to radial optic flow artifacts and demonstrate a promising approach for masking this optic flow artifact via blink suppression."
+        },
+        {
+            "image": "static/gowthami_somepalli.jpeg",
+            "link": "https://somepago.github.io/",
+            "name": "Gowthami Somepalli",
+            "affiliation": "UMD",
+            "title": "Measuring Style Similarity in Diffusion Models",
+            "abstract": "Generative models are now widely used by graphic designers and artists. Prior works have shown that these models remember and often replicate content from their training data during generation."
+        }
+    ],
+    "2024-04-22": [
+        {
+            "image": "static/xijun_wang.png",
+            "link": "https://xijun-cs.github.io/",
+            "name": "Xijun Wang",
+            "affiliation": "UMD",
+            "title": "ICAR: Image-based Complementary Auto Reasoning",
+            "abstract": "Scene-aware Complementary Item Retrieval (CIR) is a challenging task which requires generating a set of compatible items across domains."
+        },
+        {
+            "image": "static/namitha_padmanabhan.jpg",
+            "link": "https://www.cs.umd.edu/people/namithap",
+            "name": "Namitha Padmanabhan",
+            "affiliation": "UMD",
+            "title": "Explaining the Implicit Neural Canvas (XINC): Connecting Pixels to Neurons by Tracing their Contributions",
+            "abstract": "The many variations of Implicit Neural Representations (INRs), where a neural network is trained as a continuous representation of a signal, have tremendous practical utility for downstream tasks."
+        }
+    ],
+    "2024-04-15": [
+        {
+            "image": "static/mingyang_xie.jpg",
+            "link": "https://mingyangx.github.io/",
+            "name": "Mingyang Xie",
+            "affiliation": "UMD",
+            "title": "Flash-Splat: 3D Reflection Removal with Flash Cues and Gaussian Splats",
+            "abstract": "We introduce a simple yet effective approach for separating transmitted and reflected light."
+        },
+        {
+            "image": "static/tianrui_guan.JPG",
+            "link": "https://tianruiguan.phd/",
+            "name": "Tianrui Guan",
+            "affiliation": "UMD",
+            "title": "HALLUSIONBENCH: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models",
+            "abstract": "We introduce “HALLUSIONBENCH,” a comprehensive benchmark designed for the evaluation of image-context reasoning."
+        }
+    ],
+    "2024-04-08": [
+        {
+            "image": "static/yao_chih.png",
+            "link": "https://yaochih.github.io/",
+            "name": "Yao-Chih Lee",
+            "affiliation": "UMD",
+            "title": "Fast View Synthesis of Casual Videos",
+            "abstract": "Novel view synthesis from an in-the-wild video is difficult due to challenges like scene dynamics and lack of parallax."
+        }
+    ],
+    "2024-03-11": [
+        {
+            "image": "static/matt_walmer.jpg",
+            "link": "http://www.cs.umd.edu/~mwalmer/",
+            "name": "Matthew Walmer",
+            "affiliation": "UMD",
+            "title": "Teaching Matters: Investigating the Role of Supervision in Vision Transformers",
+            "abstract": "Vision Transformers (ViTs) have gained significant popularity in recent years and have proliferated into many applications."
+        },
+        {
+            "image": "static/saksham_suri.png",
+            "link": "http://www.cs.umd.edu/~sakshams/",
+            "name": "Saksham Suri",
+            "affiliation": "UMD",
+            "title": "Transforming ViT Features for Dense Downstream Tasks",
+            "abstract": "We present a simple self-supervised method to enhance the performance of ViT features for dense downstream tasks."
+        }
+    ],
+    "2024-02-26": [
+        {
+            "image": "static/roni_sengupta.jpg",
+            "link": "https://www.cs.unc.edu/~ronisen/",
+            "name": "Roni Sengupta",
+            "affiliation": "UNC Chapel Hill",
+            "title": "Building Personalized and Efficient 3D Models",
+            "abstract": "Creating 3D models from casual camera captures enables various creative and cognitive applications for AR/VR."
+        }
+    ],
+    "2024-02-19": [
+        {
+            "image": "static/hadi_alzayer.png",
+            "link": "https://hadizayer.github.io/",
+            "name": "Hadi Alzayer",
+            "affiliation": "UMD",
+            "title": "Fixing coarse edits with diffusion models",
+            "abstract": "Editing a photograph by rearranging its components parts to produce a realistic output is a meticulous process."
+        },
+        {
+            "image": "static/yixuan_ren.jpg",
+            "link": "https://www.linkedin.com/in/renyixuan/",
+            "name": "Yixuan Ren",
+            "affiliation": "UMD",
+            "title": "Video Motion Customization",
+            "abstract": "Image customization has been extensively studied in text-to-image diffusion models, leading to impressive outcomes and applications."
+        }
+    ],
+    "2024-02-12": [
+        {
+            "image": "static/aswin.jpg",
+            "link": "http://imagesci.ece.cmu.edu/",
+            "name": "Aswin Sankaranarayanan",
+            "affiliation": "CMU",
+            "title": "Computational Optics for 3D Display Design",
+            "abstract": "Digitization of reality is at the cusp of widespread adoption and 3D displays are at the forefront of enabling such extended reality systems."
+        }
+    ],
+    "2024-02-05": [
+        {
+            "image": "static/kevin_zhang.png",
+            "link": "https://kevinwzhang.com",
+            "name": "Kevin Zhang",
+            "affiliation": "UMD",
+            "title": "Fusing RGB and Imaging Sonar Data using Neural Surfaces",
+            "abstract": "Underwater perception and 3D surface reconstruction are challenging problems with broad applications."
+        },
+        {
+            "image": "static/sachin_shah.jpeg",
+            "link": "https://sachinshah.com/",
+            "name": "Sachin Shah",
+            "affiliation": "UMD",
+            "title": "CodedEvents: Optimal Point-Spread-Function Engineering for 3D-Tracking with Event Cameras",
+            "abstract": "Point-spread-function engineering is a well-established computational imaging technique used to embed extra information into images."
+        }
+    ]
+}

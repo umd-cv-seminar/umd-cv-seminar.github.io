@@ -1,0 +1,62 @@
+{
+    "2023-07-17": [
+        {
+            "image": "../static/ani_kembhavi.jpg",
+            "link": "https://anikem.github.io/",
+            "name": "Ani Kembhavi",
+            "affiliation": "AI2",
+            "title": "Is this the beginning or is this the end for end-to-end vision models?",
+            "abstract": "Large language models like GPT-4 support a whole gamut of tasks in natural language, some out of the box and others using a few examples via in context learning. In contrast, unification has been more challenging in computer vision, partly due to the heterogeneity of tasks in the visual domain. How do we create unified systems for vision that can be as capable and creative as language counterparts ? In this talk, I will present two different paths that we are actively exploring. The first path is to build large end to end models for computer vision, and along this direction I will introduce Unified-IO, the first single neural model to perform a large and diverse set of AI tasks spanning classical computer vision, image synthesis, vision-and-language, and natural language processing. The second path is Visual Programming, where given a natural language description of a vision task, a program generator creates a program which is then executed on the task inputs using a program interpreter. This paradigm uses language models to parse instructions and generate code, leverages specialized vision models that the community is building and ever improving, and scales easily to large sets of diverse tasks."
+        }
+    ],
+    "2023-09-25": [
+        {
+            "image": "../static/shenlong_wang.jpg",
+            "link": "https://zollhoefer.com/",
+            "name": "Shenlong Wang",
+            "affiliation": "UIUC",
+            "title": "Visual Imagination in the 3D Physical World",
+            "abstract": "My long-term research goal is to enable computers to construct highly realistic and easily authored 3D digital twins of the physical world and to produce new, photorealistic, and physics-informed visual content, often referred to as \"imagination\". This talk will summarize two recent directions our group has taken toward this goal. Firstly, I will discuss the generation of realistic movies that depict physical phenomena in real-world scenes captured on video. For instance, visualize how the local children's park might appear during a flood or after a heavy snowstorm. Current generative models face challenges in such scenarios due to inconsistencies and a lack of physical feasibility. We believe that integrating physics-informed simulations with neural scene representations is the answer. I will showcase how to combine these techniques to simulate coherent, realistic, and physically plausible extreme climate effects and relighting effects for visual scenes. Next, I will introduce a novel robot imagination paradigm that can seamlessly merge the physical world with simulation. I'll present \"Sim-on-Wheels,\" a safe and realistic vehicle-in-loop simulation framework. Sim-on-Wheels operates on a self-driving vehicle in the real world, generating virtual traffic participants exhibiting risky behaviors. It then seamlessly integrates these virtual events into images captured from the physical environment in real-time. I will explain how these manipulated images from Sim-on-Wheels are fed into an autonomous system in real time, enabling the evaluation of autonomous vehicle performance under safety-critical scenarios in the real world. Finally, I will provide a brief personal perspective on open research topics related to photorealistic 3D modeling and visual content creation."
+        }
+    ],
+    "2023-10-23": [
+        {
+            "image": "../static/fuxin_li.jpg",
+            "link": "https://web.engr.oregonstate.edu/~lif/",
+            "name": "Fuxin Li",
+            "affiliation": "OSU",
+            "title": "From Sparse to Dense, and back to Sparse again?",
+            "abstract": "Computer vision architectures used to be built on a sparse sample of points in the 80s and 90s. In the 2000s, dense models started to become popular for visual recognition as heuristically defined sparse models do not cover all the important parts of an image. However, with deep learning and end-to-end training approaches, this does not have to continue and sparse models may still have significant advantages in saving unnecessary computation as well as being more flexible. In this talk, I will talk about the deep point cloud convolutional backbones that we have developed in the past few years, including the most recent work PointConvFormer that outperforms grid-based convolutional approaches. I will also talk about a recent work, AutoFocusFormer, that uses point cloud transformer backbones and decoders to work on 2D image recognition, with a novel adaptive downsampling module that enables the end-to-end learning of adaptive downsampling. Results show significant improvements in both 3D and 2D recognition tasks. Especially, on the CityScapes benchmark, a model with only 42 million parameters with our approach outperforms the state-of-the-art Mask2Former Large model with 197 million parameters."
+        }
+    ],
+    "2023-10-26": [
+        {
+            "image": "../static/atlas_wang.png",
+            "link": "https://vita-group.github.io/",
+            "name": "Atlas Wang",
+            "affiliation": "UT Austin",
+            "title": "Attaining Sparsity in Large Language Models: Is it Easy or Hard?",
+            "abstract": "In the realm of contemporary deep learning, large pre-trained transformers have seized the spotlight. Understanding the underlying frugal structures within these burgeoning models has become imperative. Although the tools of sparsity, like pruning the lottery ticket hypothesis and sparse training, have enjoyed popularity and success in traditional deep networks, their efficacy in the new era of colossal pre-trained models, such as Large Language Models (LLMs)remains uncertain. This presentation aims to elucidate two seemingly contradictory perspectives on one hand, we explore the notion that compressing LLMS is easier\" compared to earlier deep models, but on the other hand, we delve into the aspects that make this endeavor \"harder in its own unique way my goal is to convince you that am indeed not contradicting myself."
+        }
+    ],
+    "2023-10-27": [
+        {
+            "image": "../static/jun_yan_zhu.jpg",
+            "link": "https://www.cs.cmu.edu/~junyanz/",
+            "name": "Jun-Yan Zhu",
+            "affiliation": "CMU",
+            "title": "Enabling Collaboration between Human Creators and Generative Visual Models",
+            "abstract": "Large-scale generative visual models, such as DALLE2 and Stable Diffusion, have made content creation as little effort as writing a short text description. Meanwhile, these models also spark concerns among artists, designers, and photographers about job security and proper credit for their contributions to the training images. This leads to many questions: Will generative models make creators' jobs obsolete? Should creators stop publicly sharing their work? Should we ban generative models altogether? \n                    In this talk, I argue that human creators and generative models can coexist. To achieve it, we need to involve creators in the loop of both model inference and model creation while crediting their efforts for their involvement.  I will first explore our recent efforts in model rewriting, which allows creators to freely control the model's behavior by adding, altering, or removing concepts and rules. I will demonstrate several applications, including creating new visual effects, customizing models with multiple personal concepts, and removing copyrighted content. I will then discuss our data attribution algorithm for assessing the influence of each training image for a generated sample. Collectively, we aim to allow creators to leverage the models while retaining control over the creation process and data ownership."
+        }
+    ],
+    "2023-12-04": [
+        {
+            "image": "../static/michael_zollhoefer.png",
+            "link": "https://zollhoefer.com/",
+            "name": "Michael Zollhoefer",
+            "affiliation": "Meta",
+            "title": "Achieving Codec Telepresence",
+            "abstract": "Imagine two people living in different parts of the world. Wouldn't it be amazing if they could communicate and interact with each other as if they were co-present in the same room? Enabling such an experience virtually, i.e., building a Codec Telepresence system that is indistinguishable from reality is one of the goals of Reality Labs Research (RL-R) in Pittsburgh. To this end, we develop key technology that combines fundamental computer vision, machine learning, and graphics research based on a novel neural reconstruction and rendering paradigm. In this talk, I will explain what a Codec Telepresence system is, how it works, as well as cover recent research advances towards achieving our goal. In the future, this system will bring the world closer together by enabling anybody to communicate and interact with anyone, anywhere, at any time, as if everyone were sharing the same physical space."
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "2024-11-25": [
+        {
+            "image": "static/kelin_yu.png",
+            "link": "https://colinyu1.github.io/",
+            "name": "Kelin Yu",
+            "affiliation": "UMD",
+            "title": "MimicTouch: Leveraging Multi-modal Human Tactile Demonstrations for Contact-rich Manipulation",
+            "abstract": "Tactile sensing is critical to fine-grained, contact-rich manipulation tasks, such as insertion and assembly. Prior research has shown the possibility of learning tactile-guided policy from teleoperated demonstration data. However, to provide the demonstration, human users often rely on visual feedback to control the robot. This creates a gap between the sensing modality used for controlling the robot (visual) and the modality of interest (tactile). To bridge this gap, we introduce \"MimicTouch\", a novel framework for learning policies directly from demonstrations provided by human users with their hands. The key innovations are i) a human tactile data collection system which collects multi-modal tactile dataset for learning human's tactile-guided control strategy, ii) an imitation learning-based framework for learning human's tactile-guided control strategy through such data, and iii) an online residual RL framework to bridge the embodiment gap between the human hand and the robot gripper. Through comprehensive experiments, we highlight the efficacy of utilizing human's tactile-guided control strategy to resolve contact-rich manipulation tasks.",
+            "paper_link": "https://arxiv.org/abs/2310.16917"
+        }
+    ],
+    "2024-11-04": [
+        {
+            "image": "static/florian_willomitzer.jpg",
+            "link": "https://www.optics.arizona.edu/person/florian-willomitzer",
+            "name": "Florian Willomitzer",
+            "affiliation": "University of Arizona",
+            "title": "Computational Imaging on Shiny and Specular Surfaces: From Tablet-Based 3D Measurements to Accurate and Fast Eye Tracking",
+            "abstract": "Despite its importance in AR/VR, industrial inspection, or medical imaging, the robust and accurate 3D measurement of shiny and specular surfaces remains a considerable challenge for current state-of-the-art approaches. This talk presents a series of metrology-inspired techniques that leverage efficient illumination encoding combined with additional imaging modalities, such as polarization, for high-quality Computational 3D Imaging on specular and shiny surfaces. Amongst other projects, a novel approach for eye tracking that uses deflectometric information will be introduced. Deflectometry is a well-known technique in optical 3D metrology for the measurement of specular surfaces, and our group has developed a family of “computational deflectometry” approaches for the fast and accurate measurement of the eye’s gaze direction. Instead of relying on sparse point-source reflections to estimate gaze, our techniques sample the eye surface at over 40,000 points in single shot, allowing for eye tracking with high accuracy. Potentials and limitations of different approaches will be discussed."
+        }
+    ],
+    "2024-10-21": [
+        {
+            "image": "static/shuaiyi_huang.jpg",
+            "link": "https://shuaiyihuang.github.io/",
+            "name": "Shuaiyi Huang",
+            "affiliation": "UMD",
+            "title": "ARDuP: Active Region Video Diffusion for Universal Policies",
+            "abstract": "Sequential decision-making can be formulated as a text-conditioned video generation problem, where a video planner, guided by a text-defined goal, generates future frames visualizing planned actions, from which control actions are subsequently derived. In this work, we introduce Active Region Video Diffusion for Universal Policies (ARDuP), a novel framework for video-based policy learning that emphasizes the generation of active regions, i.e. potential interaction areas, enhancing the conditional policy's focus on interactive areas critical for task execution. This innovative framework integrates active region conditioning with latent diffusion models for video planning and employs latent representations for direct action decoding during inverse dynamic modeling. By utilizing motion cues in videos for automatic active region discovery, our method eliminates the need for manual annotations of active regions. We validate ARDuP's efficacy via extensive experiments on simulator CLIPort and the real-world dataset BridgeData v2, achieving notable improvements in success rates and generating convincingly realistic video plans.",
+            "paper_link": "https://arxiv.org/abs/2406.13301"
+        }
+    ],
+    "2024-10-07": [
+        {
+            "image": "static/matt_chan.jpeg",
+            "link": "https://www.cs.umd.edu/~mattchan/",
+            "name": "Matt Chan",
+            "affiliation": "UMD",
+            "title": "Estimating Epistemic and Aleatoric Uncertainty with a Single Model",
+            "abstract": "Estimating and disentangling epistemic uncertainty, uncertainty that is reducible with more training data, and aleatoric uncertainty, uncertainty that is inherent to the task at hand, is critically important when applying machine learning to high-stakes applications such as medical imaging and weather forecasting. Conditional diffusion models' breakthrough ability to accurately and efficiently sample from the posterior distribution of a dataset now makes uncertainty estimation conceptually straightforward: One need only train and sample from a large ensemble of diffusion models. Unfortunately, training such an ensemble becomes computationally intractable as the complexity of the model architecture grows. In this work we introduce a new approach to ensembling, hyper-diffusion models (HyperDM), which allows one to accurately estimate both epistemic and aleatoric uncertainty with a single model. Unlike existing single-model uncertainty methods like Monte-Carlo dropout and Bayesian neural networks, HyperDM offers prediction accuracy on par with, and in some cases superior to, multi-model ensembles. Furthermore, our proposed approach scales to modern network architectures such as Attention U-Net and yields more accurate uncertainty estimates compared to existing methods. We validate our method on two distinct real-world tasks: x-ray computed tomography reconstruction and weather temperature forecasting.",
+            "paper_link": "https://arxiv.org/abs/2402.03478"
+        },
+        {
+            "image": "static/arpit_bansal.png",
+            "link": "https://arpitbansal297.github.io/",
+            "name": "Arpit Bansal",
+            "affiliation": "UMD",
+            "title": "Controlling Diffusion Models for Editing",
+            "abstract": ""
+        }
+    ],
+    "2024-09-23": [
+        {
+            "image": "static/jinwei_ye.jpg",
+            "link": "https://cs.gmu.edu/~jinweiye/",
+            "name": "Jinwei Ye",
+            "affiliation": "GMU",
+            "title": "Seeing 3D with Polarized Light",
+            "abstract": "Polarization, as an intrinsic property of light, provides an extra dimension of information for probing the physical world. Many insects can see and make use of polarized light. For example, bumble bees use the sky’s polarization pattern for fast navigation. The polarization of light is often overlooked in computer vision, as human eyes do not have such sensitivity. However, it turns out that reasoning on the polarization state of light allows for more efficient geometry and material analysis than using the conventional color images alone. In this talk, I will talk about my works that use polarized light for 3D reconstruction and material understanding. I will first explain the principles of polarization sensing and the modeling of polarimetric appearance. I will then showcase several imaging solutions that use polarized light for high fidelity 3D reconstruction in challenging scenarios. I will show applications of these imaging solutions in VR, robotics and scientific imaging."
+        }
+    ],
+    "2024-09-16": [
+        {
+            "image": "static/lerrel_pinto.jpg",
+            "link": "https://www.lerrelpinto.com/",
+            "name": "Lerrel Pinto",
+            "affiliation": "NYU",
+            "title": "On Building General-Purpose Home Robots",
+            "abstract": "The concept of a \"generalist machine\" in homes — a domestic assistant that can adapt and learn from our needs, all while remaining cost-effective — has long been a goal in robotics that has been steadily pursued for decades. In this talk, I will present our recent efforts towards building such capable home robots. First, I will discuss how large, pretrained vision-language models can induce strong priors for mobile manipulation tasks like pick-and-drop. But pretrained models can only take us so far. To scale beyond basic picking, we will need systems and algorithms to rapidly learn new skills. This requires creating new tools to collect data, improving representations of the visual world, and enabling trial-and-error learning during deployment. While much of the work presented focuses on two-fingered hands, I will briefly introduce learning approaches for multi-fingered hands which support more dexterous behaviors and rich touch sensing combined with vision. Finally, I will outline unsolved problems that were not obvious initially, which, when solved, will bring us closer to general-purpose home robots."
+        }
+    ],
+    "2024-09-09": [
+        {
+            "image": "static/zhiwen_fan.jpg",
+            "link": "https://zhiwenfan.github.io/",
+            "name": "Zhiwen Fan",
+            "affiliation": "UT Austin",
+            "title": "From Efficient 3D Learning to 3D Foundation Models",
+            "abstract": "Future AI systems are envisioned to efficiently perceive and interact with the physical (3D) world while also being able to seamlessly re-create simulated digital environments for real-time and immersive applications. My research bridges the gap between the physical and digital worlds by enabling machines to accurately perceive and reconstruct 3D geometry from visual sensors. Moreover, my work focuses on the design of a comprehensive 3D foundation model that unifies a wide range of 3D problems within a single framework and can be executed differentiably starting from unposed images, thereby reducing incremental error and engineering efforts. Building on my previous research experiences, my ongoing work examines the self-supervised pre-training of these 3D foundation models with large-scale web video data, mitigating the limitations in generalization capacity caused by the scarcity of annotated 3D data. My holistic research vision focuses on integrating geometric priors into autonomous robotics and generative AI techniques that adhere to the physical laws governing object motion and interactions in 3D space over time, thereby developing more advanced spatial intelligence."
+        }
+    ]
+}
